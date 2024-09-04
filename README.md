@@ -4,8 +4,6 @@ https://github.com/user-attachments/assets/f3612311-4681-46a7-a2d4-d202b969e373
 
 # **Introduction to Computer Vision**
 
-# **Computer Vision**
-
 The ability of computers to comprehend and evaluate visual information similarly to humans is known as computer vision. This covers activities like reading text, identifying faces and objects, and figuring out the context of a picture or video. 
 
 Artificial intelligence (AI) and computer vision are closely related fields that frequently employ AI methods like machine learning to evaluate and comprehend visual data. A computer can be "trained" to identify patterns and features in visual data, such as edges, forms, and colors, by using machine learning techniques. After being educated, the computer can recognize and categorize items in fresh pictures and videos. As these classifiers are trained more and exposed to more data, their accuracy can be increased over time.
@@ -82,7 +80,7 @@ plt.show()
 
 
 # **Diagram/Flowchart**
-![EdgeDetection drawio](https://github.com/user-attachments/assets/4d454219-932b-412e-b132-5b8466c52a6d)
+![EdgeDetection](https://github.com/user-attachments/assets/307537b3-41d4-4987-98d1-9d8ea0d91b3f)
 
 # **Conclusion**
 
