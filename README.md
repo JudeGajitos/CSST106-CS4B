@@ -82,7 +82,7 @@ plt.show()
 
 
 # **Diagram/Flowchart**
-![EdgeDetection drawio](https://github.com/user-attachments/assets/7bd15935-1c5c-4ecf-86cb-e52cf9eddc49)
+![EdgeDetection drawio](https://github.com/user-attachments/assets/4d454219-932b-412e-b132-5b8466c52a6d)
 
 # **Conclusion**
 
