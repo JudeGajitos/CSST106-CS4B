@@ -55,20 +55,46 @@ Image processing is needed in biometrics to identify a person whose biometric im
 
 Edge detection is essential to biometric systems, especially in fingerprint and face recognition. It aids in identifying the unique features that make each person unique. The image is processed by edge detection techniques to determine the boundaries between various regions. These boundaries often line up with significant features, such as the ridges and valleys of fingerprints or the edges of facial features. 
 
+**Edge Detection using OpenCV's Canny edge detection algorithm**
+
+**1. Importing Libraries**
+The cv2 library (OpenCV) provides functions for image processing and computer vision tasks. The matplotlib.pyplot (imported as plt) library is used for creating visualizations like plots. Amd google.colab.patches (specifically cv2_imshow) library patch is used for displaying images in Google Colab (optional, not used for core functionality).
 ```py
 import cv2
 from matplotlib import pyplot as plt
 from google.colab.patches import cv2_imshow
+```
 
+**2. Loading the Image**
+Load the image named "face.jpg" in img variable.
+```py
 # Load the image
 img = cv2.imread("face.jpg")
+```
+**3. Converting to Grayscale**
+Converts the loaded image stored in img varible to grayscale and stores the output in gray variable.
+```py
 # Convert the image to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+```
+
+**4. Applying Gaussian Blur**
+Applies a Gaussian blur filter to the grayscale image stored in gray variable and stored the output in blurred variable.
+```py
 # Apply Gaussian blur to reduce noise
 blurred = cv2.GaussianBlur(gray, (3, 3), 0)
+```
+
+**5. Canny Edge Detection**
+Performs the Edge Detection using the Canny edge detection algorithm.
+```py
 # Detect edges using Canny edge detection
 edges = cv2.Canny(blurred, 100, 200)
+```
 
+**6. Displaying Images**
+Display the Original and the Edge Detected Image usuing plt.
+```py
 # Display the original image and the edge-detected image
 plt.subplot(121), plt.imshow(img, cmap='gray')
 plt.title('Original Image'), plt.xticks([]), plt.yticks([])
@@ -80,10 +106,20 @@ plt.show()
 
 
 # **Diagram/Flowchart**
-![EdgeDetection](https://github.com/user-attachments/assets/307537b3-41d4-4987-98d1-9d8ea0d91b3f)
+![EdgeDetectionDiagram drawio](https://github.com/user-attachments/assets/a808377f-505e-4114-aa37-7a7f8f6c2a71)
 
 # **Conclusion**
 
 Artificial intelligence (AI) requires image processing, particularly in areas like computer vision, robotics, and medical imaging. In order to extract relevant information, digital images must be manipulated and analyzed. AI systems can better comprehend and interact with the visual environment by creating effective image processing algorithms, which will promote various kinds of industries and applications.
 
 In this activity I have learned different things about computer vision especially in image processing. The image processing techniques that helps the image to enhance its quality, extract its important features, and analyze it. 
+
+# **Emerging Form of Image Processing**
+
+**Edge Computing**
+
+Edge computing is a network model where data processing occurs at the network's edge, near the data source, eliminating the need to send image data to a central server or cloud service. For instance, a low-power single board computer near the camera can be used for license plate recognition in road toll collection, broadcasting only the license plate numbers. Applications can be delivered to embedded systems and cross-platform development is made simple with FLIR's Spinnaker SDK, which supports X64 and ARM hardware. 
+
+**Key Benefits of Edge Computing**
+
+By reducing the number of switches and hosts between the data's source and destination, processing images on the edge reduces jitter and latency inside the system. The time interval between acquiring an image and taking action grows with each network node that data packets pass through. By reducing the delay brought on by the time it takes to upload image data, edge computing significantly reduces system latency. Edge nodes have the ability to anonymize data that is transferred to the cloud for additional analysis, hence improving system security and reducing privacy issues. 
