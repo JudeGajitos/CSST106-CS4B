@@ -80,6 +80,10 @@ plt.show()
 ```
 ![EdgeDetection](https://github.com/user-attachments/assets/c6176f35-c5b9-4d79-bf81-228dde635898)
 
+
+# **Diagram/Flowchart**
+![EdgeDetection drawio](https://github.com/user-attachments/assets/7bd15935-1c5c-4ecf-86cb-e52cf9eddc49)
+
 # **Conclusion**
 
 Artificial intelligence (AI) requires image processing, particularly in areas like computer vision, robotics, and medical imaging. In order to extract relevant information, digital images must be manipulated and analyzed. AI systems can better comprehend and interact with the visual environment by creating effective image processing algorithms, which will promote various kinds of industries and applications.
