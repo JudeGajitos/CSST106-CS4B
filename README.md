@@ -46,8 +46,6 @@ Image processing is needed in biometrics to identify a person whose biometric im
 
 **Edge Detection**
 
-![EdgeDetection](https://github.com/user-attachments/assets/c6176f35-c5b9-4d79-bf81-228dde635898)
-
 Edge detection is essential to biometric systems, especially in fingerprint and face recognition. It aids in identifying the unique features that make each person unique. The image is processed by edge detection techniques to determine the boundaries between various regions. These boundaries often line up with significant features, such as the ridges and valleys of fingerprints or the edges of facial features. 
 
 ```py
@@ -64,12 +62,14 @@ blurred = cv2.GaussianBlur(gray, (3, 3), 0)
 # Detect edges using Canny edge detection
 edges = cv2.Canny(blurred, 100, 200)
 
+# Display the original image and the edge-detected image
 plt.subplot(121), plt.imshow(img, cmap='gray')
 plt.title('Original Image'), plt.xticks([]), plt.yticks([])
 plt.subplot(122), plt.imshow(edges, cmap='gray')
 plt.title('Edge Detected Image'), plt.xticks([]), plt.yticks([])
 plt.show()
 ```
+![EdgeDetection](https://github.com/user-attachments/assets/c6176f35-c5b9-4d79-bf81-228dde635898)
 
 # **Conclusion**
 
