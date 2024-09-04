@@ -27,15 +27,17 @@ Scientific image analysis, medical imaging systems, industrial inspection system
 
 # **Types of Image Processing Techniques**
 
+*   Filtering - The pixels in an image are directly subjected to the filtering technique. Generally speaking, a mask is added in size to have a certain center pixel. The mask is positioned on the image so that its center crosses every pixel in the image.
 <img width="599" alt="filtering" src="https://github.com/user-attachments/assets/b7e024cd-cbb9-45c0-b1ef-bc39ffe7528a">
 
-*   Filtering - The pixels in an image are directly subjected to the filtering technique. Generally speaking, a mask is added in size to have a certain center pixel. The mask is positioned on the image so that its center crosses every pixel in the image. 
 
-![segmentaion](https://github.com/user-attachments/assets/62ad5dd0-481e-492b-ad52-3f3aede9b8c2)
 *   Segmentation - In order assist with object detection and related tasks, image segmentation is a computer vision approach that divides a digital image into distinct groupings of pixels, or image segments.
+![segmentaion](https://github.com/user-attachments/assets/62ad5dd0-481e-492b-ad52-3f3aede9b8c2)
 
+
+*   Edge Detection - An essential method for locating and recognizing the borders or edges of objects in an image is edge detection. It is employed to extract the outlines of objects that are present in an image as well as to recognize and detect discontinuities in the image intensity.
 ![edgeDetection](https://github.com/user-attachments/assets/5f70c118-86c1-4e58-9eca-fb8a66098786)
-*   Edge Detection - An essential method for locating and recognizing the borders or edges of objects in an image is edge detection. It is employed to extract the outlines of objects that are present in an image as well as to recognize and detect discontinuities in the image intensity. 
+
 
 # **Case Study Selection: BIOMETRICS**
 Image processing is needed in biometrics to identify a person whose biometric image has already been stored in the database. Biometrics based on images, like fingerprints, iris scans, and facial features, require the use of image processing and pattern recognition techniques. An image-based biometric system requires an extremely clear and pure sample image of the user's biometric in order to function correctly. 
