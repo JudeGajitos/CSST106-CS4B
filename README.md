@@ -68,8 +68,11 @@ plt.title('Original Image'), plt.xticks([]), plt.yticks([])
 plt.subplot(122), plt.imshow(edges, cmap='gray')
 plt.title('Edge Detected Image'), plt.xticks([]), plt.yticks([])
 plt.show()
-```
+
 ![EdgeDetection](https://github.com/user-attachments/assets/c6176f35-c5b9-4d79-bf81-228dde635898)
+
+```
+
 
 # **Conclusion**
 
