@@ -31,10 +31,10 @@ Scientific image analysis, medical imaging systems, industrial inspection system
 
 *   Filtering - The pixels in an image are directly subjected to the filtering technique. Generally speaking, a mask is added in size to have a certain center pixel. The mask is positioned on the image so that its center crosses every pixel in the image. 
 
-![imageSegmentation](https://github.com/user-attachments/assets/272c2e34-070f-4db2-a081-3ca77c870419)
+![segmentaion](https://github.com/user-attachments/assets/62ad5dd0-481e-492b-ad52-3f3aede9b8c2)
 *   Segmentation - In order assist with object detection and related tasks, image segmentation is a computer vision approach that divides a digital image into distinct groupings of pixels, or image segments.
 
-![segmentaion](https://github.com/user-attachments/assets/62ad5dd0-481e-492b-ad52-3f3aede9b8c2)
+![edgeDetection](https://github.com/user-attachments/assets/5f70c118-86c1-4e58-9eca-fb8a66098786)
 *   Edge Detection - An essential method for locating and recognizing the borders or edges of objects in an image is edge detection. It is employed to extract the outlines of objects that are present in an image as well as to recognize and detect discontinuities in the image intensity. 
 
 # **Case Study Selection: BIOMETRICS**
