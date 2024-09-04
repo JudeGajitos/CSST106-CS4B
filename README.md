@@ -50,6 +50,23 @@ Image processing is needed in biometrics to identify a person whose biometric im
 
 Edge detection is essential to biometric systems, especially in fingerprint and face recognition. It aids in identifying the unique features that make each person unique. The image is processed by edge detection techniques to determine the boundaries between various regions. These boundaries often line up with significant features, such as the ridges and valleys of fingerprints or the edges of facial features. 
 
+```py
+import cv2
+from matplotlib import pyplot as plt
+from google.colab.patches import cv2_imshow
+
+img = cv2.imread("face.jpg")
+gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+blurred = cv2.GaussianBlur(gray, (3, 3), 0)
+edges = cv2.Canny(blurred, 100, 200)
+
+plt.subplot(121), plt.imshow(img, cmap='gray')
+plt.title('Original Image'), plt.xticks([]), plt.yticks([])
+plt.subplot(122), plt.imshow(edges, cmap='gray')
+plt.title('Edge Detected Image'), plt.xticks([]), plt.yticks([])
+plt.show()
+```
+
 # **Conclusion**
 
 Artificial intelligence (AI) requires image processing, particularly in areas like computer vision, robotics, and medical imaging. In order to extract relevant information, digital images must be manipulated and analyzed. AI systems can better comprehend and interact with the visual environment by creating effective image processing algorithms, which will promote various kinds of industries and applications.
