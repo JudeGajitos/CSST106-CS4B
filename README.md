@@ -55,9 +55,13 @@ import cv2
 from matplotlib import pyplot as plt
 from google.colab.patches import cv2_imshow
 
+# Load the image
 img = cv2.imread("face.jpg")
+# Convert the image to grayscale
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+# Apply Gaussian blur to reduce noise
 blurred = cv2.GaussianBlur(gray, (3, 3), 0)
+# Detect edges using Canny edge detection
 edges = cv2.Canny(blurred, 100, 200)
 
 plt.subplot(121), plt.imshow(img, cmap='gray')
