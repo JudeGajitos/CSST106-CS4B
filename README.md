@@ -58,6 +58,7 @@ Edge detection is essential to biometric systems, especially in fingerprint and 
 **Edge Detection using OpenCV's Canny edge detection algorithm**
 
 **1. Importing Libraries**
+
 The cv2 library (OpenCV) provides functions for image processing and computer vision tasks. The matplotlib.pyplot (imported as plt) library is used for creating visualizations like plots. Amd google.colab.patches (specifically cv2_imshow) library patch is used for displaying images in Google Colab (optional, not used for core functionality).
 ```py
 import cv2
@@ -66,12 +67,14 @@ from google.colab.patches import cv2_imshow
 ```
 
 **2. Loading the Image**
+
 Load the image named "face.jpg" in img variable.
 ```py
 # Load the image
 img = cv2.imread("face.jpg")
 ```
 **3. Converting to Grayscale**
+
 Converts the loaded image stored in img varible to grayscale and stores the output in gray variable.
 ```py
 # Convert the image to grayscale
@@ -79,6 +82,7 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 ```
 
 **4. Applying Gaussian Blur**
+
 Applies a Gaussian blur filter to the grayscale image stored in gray variable and stored the output in blurred variable.
 ```py
 # Apply Gaussian blur to reduce noise
@@ -86,6 +90,7 @@ blurred = cv2.GaussianBlur(gray, (3, 3), 0)
 ```
 
 **5. Canny Edge Detection**
+
 Performs the Edge Detection using the Canny edge detection algorithm.
 ```py
 # Detect edges using Canny edge detection
@@ -93,6 +98,7 @@ edges = cv2.Canny(blurred, 100, 200)
 ```
 
 **6. Displaying Images**
+
 Display the Original and the Edge Detected Image usuing plt.
 ```py
 # Display the original image and the edge-detected image
