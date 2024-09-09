@@ -60,34 +60,36 @@ display_image(scaled_image, "Scaled Image")
 rotated_image = rotate_image(image, 45)
 display_image(rotated_image, "Rotated Image")
 ```
-![Scaled and Rotated](https://github.com/user-attachments/assets/e7ab7670-ec49-413f-8e17-e3d02d8afc22)
+![Scaled](https://github.com/user-attachments/assets/d7802440-ddf8-4da2-9a35-a8ede21fbf35)
+![Rotated](https://github.com/user-attachments/assets/813f8505-09c2-47d8-9aa8-fbffdf1cfbea)
 
 *   **Lab Session 2: Filtering Techniques**
   *   Blurring and Edge Detection: Explore how to apply blurring filters and edge detection algorithms to images using OpenCV.
   
   *   Implementation:
   1. Blurring using Gaussian Blur, Median Blur, and Bilateral Blur.
-  ```py
-  #from the same uploaded and loaded image on the previous Lab Session.
-  gaussian_blur = cv2.GaussianBlur(image, (11, 11), 0)
-  display_image(gaussian_blur, "Gaussian Blur")
+```py
+#from the same uploaded and loaded image on the previous Lab Session.
+gaussian_blur = cv2.GaussianBlur(image, (11, 11), 0)
+display_image(gaussian_blur, "Gaussian Blur")
 
-  median_blur = cv2.medianBlur(image, 7)
-  display_image(median_blur, "Median Blur")
+median_blur = cv2.medianBlur(image, 7)
+display_image(median_blur, "Median Blur")
 
-  bilateral_blur = cv2.bilateralFilter(image, 111, 65, 65)
-  display_image(bilateral_blur, "Bilateral Blur")
-  ```
-  ![blur](https://github.com/user-attachments/assets/861e20bc-75b7-4105-8089-89533e0466b8)
+bilateral_blur = cv2.bilateralFilter(image, 111, 65, 65)
+display_image(bilateral_blur, "Bilateral Blur")
+```
+![Gaussian](https://github.com/user-attachments/assets/cc7bcfad-a337-44e1-bd0f-97307134bb29)
+![Median](https://github.com/user-attachments/assets/bd3bad65-1638-42ff-8089-feb2371d49d9)
+![Bilateral](https://github.com/user-attachments/assets/8e10ae07-b7f7-4083-880a-c9fc5d853b9f)
 
   2. Edge Detection using Canny
-  ```py
-  edge_detection = cv2.Canny(image, 80, 130)
-  display_image(edge_detection, "Edge Detection")
-  ```
-  ![Edge Detection](https://github.com/user-attachments/assets/9b0d8e83-a9cf-4be4-b376-a362e97f1801)
+```py
+edge_detection = cv2.Canny(image, 80, 130)
+display_image(edge_detection, "Edge Detection")
+```
+![Edge Detection](https://github.com/user-attachments/assets/9b0d8e83-a9cf-4be4-b376-a362e97f1801)
   
-
 # **Problem-Solving Session:**
 
 *   Common Image Processing Tasks: 
