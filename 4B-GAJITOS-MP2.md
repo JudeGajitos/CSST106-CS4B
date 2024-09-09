@@ -102,4 +102,9 @@ display_image(edge_detection, "Edge Detection")
   *   Solution: Apply a Gaussian blur or bilateral filter to reduce noise caused by low light conditions. These filters can help smooth out random pixel variations while preserving edges.
 
 # **Implementing Image Transformations and Filtering:**
+**Google Colab Link:**
+https://colab.research.google.com/drive/1Y2Rbhrnyo9hfzTpA3wZ_GrWrjViS0xrt?usp=sharing
+
+**Documentation Link:**
+https://docs.google.com/document/d/1s49Qewt3QDPQHFJZK-DITZN8VV_oRPu4s6Xx1Qh6vAY/edit?usp=sharing
 
