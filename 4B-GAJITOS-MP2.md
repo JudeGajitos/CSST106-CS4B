@@ -92,12 +92,12 @@ display_image(edge_detection, "Edge Detection")
   
 # **Problem-Solving Session:**
 
-*   **Common Image Processing Tasks:** Engage in a problem-solving session focused on common challenges encountered in image processing tasks.
+**Common Image Processing Tasks:** Engage in a problem-solving session focused on common challenges encountered in image processing tasks.
   *   Challenge: Image Noise
-    *   Problem: Random fluctuations in pixel intensities, often caused by factors like low light, sensor imperfections, or transmission errors.
-    *   Solution: Filtering: Apply filters like Gaussian blur, median filter, or bilateral filter to reduce noise while preserving edges.
+  *   Problem: Random fluctuations in pixel intensities, often caused by factors like low light, sensor imperfections, or transmission errors.
+  *   Solution: Filtering: Apply filters like Gaussian blur, median filter, or bilateral filter to reduce noise while preserving edges.
 
-*   **Scenario-Based Problems:** 
+**Scenario-Based Problems:** 
   *   Scenario: I have image that is taken in low quality, blurry, and difficult to see. Now, I want to enhance the quality of the image and improve its clarity and details.
   *   Solution: Apply a Gaussian blur or bilateral filter to reduce noise caused by low light conditions. These filters can help smooth out random pixel variations while preserving edges.
 
