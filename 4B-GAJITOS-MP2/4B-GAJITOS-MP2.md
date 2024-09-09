@@ -9,6 +9,7 @@ Understand and apply various image processing techniques, including image transf
   *   Scaling and Rotation: Learn how to apply scaling and rotation transformations to images using OpenCV.
 
   *   Implementation:
+    
   **1. Install the OpenCV**
 ```py
 !pip install opencv-python-headless
