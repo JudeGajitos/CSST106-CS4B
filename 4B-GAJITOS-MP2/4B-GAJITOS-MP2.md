@@ -9,11 +9,11 @@ Understand and apply various image processing techniques, including image transf
   *   Scaling and Rotation: Learn how to apply scaling and rotation transformations to images using OpenCV.
 
   *   Implementation:
-  1. Install the OpenCV
+  **1. Install the OpenCV**
 ```py
 !pip install opencv-python-headless
 ```
-  2. Import Libraries and Create a display_image function
+  **2. Import Libraries and Create a display_image function**
 ```py
 import cv2
 import numpy as np
@@ -25,7 +25,7 @@ def display_image(img, title = "Image"):
   plt.axis("off")
   plt.show()
 ```
-  3. Upload and Load Image
+  **3. Upload and Load Image**
 ```py
 from google.colab import files
 from io import BytesIO
@@ -40,7 +40,7 @@ display_image(image, "Original Image")
 ```
 ![Original Image](https://github.com/user-attachments/assets/3ec49f93-73ff-4161-ac62-401fdcb2d7ef)
 
-  4. Scaling and Rotation
+  **4. Scaling and Rotation**
 ```py
 def scale_image(image, scale_factor):
   height, width = image.shape[:2]
@@ -67,7 +67,7 @@ display_image(rotated_image, "Rotated Image")
   *   Blurring and Edge Detection: Explore how to apply blurring filters and edge detection algorithms to images using OpenCV.
   
   *   Implementation:
-  1. Blurring using Gaussian Blur, Median Blur, and Bilateral Blur.
+  **1. Blurring using Gaussian Blur, Median Blur, and Bilateral Blur.**
 ```py
 #from the same uploaded and loaded image on the previous Lab Session.
 gaussian_blur = cv2.GaussianBlur(image, (11, 11), 0)
@@ -83,7 +83,7 @@ display_image(bilateral_blur, "Bilateral Blur")
 ![Median](https://github.com/user-attachments/assets/bd3bad65-1638-42ff-8089-feb2371d49d9)
 ![Bilateral](https://github.com/user-attachments/assets/8e10ae07-b7f7-4083-880a-c9fc5d853b9f)
 
-  2. Edge Detection using Canny
+  **2. Edge Detection using Canny**
 ```py
 edge_detection = cv2.Canny(image, 80, 130)
 display_image(edge_detection, "Edge Detection")
