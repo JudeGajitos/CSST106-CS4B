@@ -164,7 +164,7 @@ Median, and Bilateral) side by side for comparison.
 ```
 ![Gaussian](https://github.com/user-attachments/assets/1dd06ff3-094f-466d-b391-8343c70a19fb)
 ![Median](https://github.com/user-attachments/assets/6a47633b-c39f-41ff-9034-fb23393530e3)
-![Bilateral](https://github.com/user-attachments/assets/81bc054f-e9c3-48c7-b729-ddbc95e7b9e3)
+![Bilateral1](https://github.com/user-attachments/assets/ec11d059-3c58-4ade-8e68-6d4cc1006425)
 
 ```py
 # Sobel Edge Detection
@@ -441,7 +441,7 @@ plt.show()
 **Blurring**
 ![Gaussian](https://github.com/user-attachments/assets/1dd06ff3-094f-466d-b391-8343c70a19fb)
 ![Median](https://github.com/user-attachments/assets/6a47633b-c39f-41ff-9034-fb23393530e3)
-![Bilateral](https://github.com/user-attachments/assets/81bc054f-e9c3-48c7-b729-ddbc95e7b9e3)
+![Bilateral1](https://github.com/user-attachments/assets/ec11d059-3c58-4ade-8e68-6d4cc1006425)
 ![Box](https://github.com/user-attachments/assets/fded1c11-7b26-461a-9382-63f821be04a9)
 ![Motion](https://github.com/user-attachments/assets/ece9da1b-7a69-45b8-836d-be053e0bb71b)
 ![Unsharp](https://github.com/user-attachments/assets/aef03bcd-3b38-4c58-92f7-447d9993716d)
