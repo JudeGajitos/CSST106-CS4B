@@ -433,13 +433,10 @@ plt.title("Laplacian Edge Detection")
 plt.axis("off")
 plt.show()
 ```
-**Original Image**
 ![origImage](https://github.com/user-attachments/assets/6309f6b8-fd10-478e-9494-ffeac47ee9ab)
 
-**Blurring**
 ![blurring](https://github.com/user-attachments/assets/b595d5ea-c389-407b-9ea5-f9c04978c04d)
 
-**Edge Detection**
 ![edgedetection](https://github.com/user-attachments/assets/4f976634-8d74-4a35-8072-12c7a1861024)
 
 # **Comparison of Image Processing Techniques**
