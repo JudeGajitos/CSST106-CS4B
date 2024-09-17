@@ -162,8 +162,6 @@ Explanation: This displays the images processed by different filtering technique
 Median, and Bilateral) side by side for comparison.
 """
 ```
-![Gaussian](https://github.com/user-attachments/assets/1dd06ff3-094f-466d-b391-8343c70a19fb)
-![Median](https://github.com/user-attachments/assets/6a47633b-c39f-41ff-9034-fb23393530e3)
 ![BilateralFilter](https://github.com/user-attachments/assets/60b5648c-f0d5-42f2-9a07-295e449c46cd)
 
 ```py
