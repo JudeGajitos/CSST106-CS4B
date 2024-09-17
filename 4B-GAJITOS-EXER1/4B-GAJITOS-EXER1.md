@@ -51,6 +51,7 @@ image_path = '/content/drive/MyDrive/Jude Gajitos.jpeg' # Replace with your imag
 image = cv2.imread(image_path)
 display_image(image, "Original Image")
 ```
+![originalImage](https://github.com/user-attachments/assets/3b71b083-92c7-477a-a2f5-8624da7ccbc5)
 
 # Exercise 1: Scaling and Rotation
 ```py
@@ -72,7 +73,8 @@ display_image(scaled_image, "Scaled Image")
 rotated_image = rotate_image(image, 45)
 display_image(rotated_image, "Rotated Image")
 ```
-![ScaledAndRotated](https://github.com/user-attachments/assets/3d106380-e35c-4dbf-93ee-5d0957e08d39)
+![scaled](https://github.com/user-attachments/assets/52ff4b2c-90f5-4293-924c-ef4f0c804a93)
+![rotated](https://github.com/user-attachments/assets/635cc765-a09b-479d-b477-da6f01a201e5)
 
 # Exercise 2: Blurring Techniques
 ```py
@@ -85,13 +87,16 @@ display_image(median_blur, "Median Blur")
 bilateral_blur = cv2.bilateralFilter(image, 111, 65, 65)
 display_image(bilateral_blur, "Bilateral Blur")
 ```
-![Blurrings](https://github.com/user-attachments/assets/75b92813-4073-4c1e-8a26-c39ecd514630)
+![Gaussian](https://github.com/user-attachments/assets/1dd06ff3-094f-466d-b391-8343c70a19fb)
+![Median](https://github.com/user-attachments/assets/6a47633b-c39f-41ff-9034-fb23393530e3)
+![Bilateral](https://github.com/user-attachments/assets/81bc054f-e9c3-48c7-b729-ddbc95e7b9e3)
 
 # 3. Edge Detection using Canny
 ```py
 edge_detection = cv2.Canny(image, 80, 130)
 display_image(edge_detection, "Edge Detection")
 ```
+![Edge Detection](https://github.com/user-attachments/assets/3062a7f2-1323-40f0-8427-29e1caaa25e8)
 
 # Exercise 4: Basic Image Processor (Interactive)
 ```py
@@ -157,6 +162,9 @@ Explanation: This displays the images processed by different filtering technique
 Median, and Bilateral) side by side for comparison.
 """
 ```
+![Gaussian](https://github.com/user-attachments/assets/1dd06ff3-094f-466d-b391-8343c70a19fb)
+![Median](https://github.com/user-attachments/assets/6a47633b-c39f-41ff-9034-fb23393530e3)
+![Bilateral](https://github.com/user-attachments/assets/81bc054f-e9c3-48c7-b729-ddbc95e7b9e3)
 
 ```py
 # Sobel Edge Detection
@@ -179,6 +187,7 @@ plt.title("Sobel Edge Detection")
 plt.axis('off')
 plt.show()
 ```
+![Sobel](https://github.com/user-attachments/assets/c7a835a4-48f8-459f-8523-c8036f6fd986)
 
 ```py
 # Laplacian Edge Detection
@@ -198,6 +207,7 @@ plt.title("Laplacian Edge Detection")
 plt.axis('off')
 plt.show()
 ```
+![Laplacian](https://github.com/user-attachments/assets/ac0c05f3-ae67-4de1-a380-11ebd153d499)
 
 ```py
 # Prewitt Edge Detection
@@ -230,6 +240,7 @@ plt.title("Prewitt Edge Detection")
 plt.axis('off')
 plt.show()
 ```
+![Prewitt](https://github.com/user-attachments/assets/f505e9ec-283d-495e-affd-58e5f845437c)
 
 ```py
 # Bilateral Filter
@@ -245,6 +256,7 @@ plt.title("Bilateral Filter")
 plt.axis('off')
 plt.show()
 ```
+![Bilateral1](https://github.com/user-attachments/assets/ec11d059-3c58-4ade-8e68-6d4cc1006425)
 
 ```py
 #Box Filter
@@ -260,6 +272,8 @@ plt.title("Box Filter")
 plt.axis('off')
 plt.show()
 ```
+![Box](https://github.com/user-attachments/assets/fded1c11-7b26-461a-9382-63f821be04a9)
+
 
 ```py
 # Motion Blur
@@ -282,6 +296,7 @@ plt.title("Motion Blur")
 plt.axis('off')
 plt.show()
 ```
+![Motion](https://github.com/user-attachments/assets/ece9da1b-7a69-45b8-836d-be053e0bb71b)
 
 ```py
 # Unsharp Masking (Sharpening)
@@ -300,6 +315,7 @@ plt.title("Unsharp Mask (Sharpening)")
 plt.axis('off')
 plt.show()
 ```
+![Unsharp](https://github.com/user-attachments/assets/aef03bcd-3b38-4c58-92f7-447d9993716d)
 
 ```py
 # Update process_image function to include new blurring techniques
@@ -419,3 +435,24 @@ plt.title("Laplacian Edge Detection")
 plt.axis("off")
 plt.show()
 ```
+**Original Image**
+![originalImage](https://github.com/user-attachments/assets/3b71b083-92c7-477a-a2f5-8624da7ccbc5)
+
+**Blurring**
+![Gaussian](https://github.com/user-attachments/assets/1dd06ff3-094f-466d-b391-8343c70a19fb)
+![Median](https://github.com/user-attachments/assets/6a47633b-c39f-41ff-9034-fb23393530e3)
+![Bilateral](https://github.com/user-attachments/assets/81bc054f-e9c3-48c7-b729-ddbc95e7b9e3)
+![Box](https://github.com/user-attachments/assets/fded1c11-7b26-461a-9382-63f821be04a9)
+![Motion](https://github.com/user-attachments/assets/ece9da1b-7a69-45b8-836d-be053e0bb71b)
+![Unsharp](https://github.com/user-attachments/assets/aef03bcd-3b38-4c58-92f7-447d9993716d)
+
+**Edge Detection**
+![Edge Detection](https://github.com/user-attachments/assets/3062a7f2-1323-40f0-8427-29e1caaa25e8)
+![Sobel](https://github.com/user-attachments/assets/c7a835a4-48f8-459f-8523-c8036f6fd986)
+![Prewitt](https://github.com/user-attachments/assets/f505e9ec-283d-495e-affd-58e5f845437c)
+![Laplacian](https://github.com/user-attachments/assets/ac0c05f3-ae67-4de1-a380-11ebd153d499)
+
+# **Comparison of Image Processing Techniques**
+![BlurringTech](https://github.com/user-attachments/assets/382516f0-0f1c-46db-9392-0b03ea8f4d3b)
+![Edge Detection Tech](https://github.com/user-attachments/assets/f5505701-32fb-4f5a-b410-8df02058a393)
+
