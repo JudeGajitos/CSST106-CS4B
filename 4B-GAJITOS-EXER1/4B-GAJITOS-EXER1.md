@@ -1,9 +1,11 @@
 # **4B - GAJITOS - EXER 1**
 
 **PDF Link:**
+
 [4B-GAJITOS-EXER1 - Colab.pdf](https://github.com/user-attachments/files/17031029/4B-GAJITOS-EXER1.-.Colab.pdf)
 
 **Google Colab Link:**
+
 https://colab.research.google.com/drive/1qcv_zOWrm-Ms3NGBtBowK6It2ueVPtoX?usp=sharing
 
 # 1. Install OpenCV
