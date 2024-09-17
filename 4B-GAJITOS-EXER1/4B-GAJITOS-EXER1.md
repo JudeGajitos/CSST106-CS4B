@@ -434,21 +434,13 @@ plt.axis("off")
 plt.show()
 ```
 **Original Image**
-![originalImage](https://github.com/user-attachments/assets/3b71b083-92c7-477a-a2f5-8624da7ccbc5)
+![origImage](https://github.com/user-attachments/assets/6309f6b8-fd10-478e-9494-ffeac47ee9ab)
 
 **Blurring**
-![Gaussian](https://github.com/user-attachments/assets/1dd06ff3-094f-466d-b391-8343c70a19fb)
-![Median](https://github.com/user-attachments/assets/6a47633b-c39f-41ff-9034-fb23393530e3)
-![BilateralFilter](https://github.com/user-attachments/assets/60b5648c-f0d5-42f2-9a07-295e449c46cd)
-![Box](https://github.com/user-attachments/assets/fded1c11-7b26-461a-9382-63f821be04a9)
-![Motion](https://github.com/user-attachments/assets/ece9da1b-7a69-45b8-836d-be053e0bb71b)
-![Unsharp](https://github.com/user-attachments/assets/aef03bcd-3b38-4c58-92f7-447d9993716d)
+![blurring](https://github.com/user-attachments/assets/b595d5ea-c389-407b-9ea5-f9c04978c04d)
 
 **Edge Detection**
-![Edge Detection](https://github.com/user-attachments/assets/3062a7f2-1323-40f0-8427-29e1caaa25e8)
-![Sobel](https://github.com/user-attachments/assets/c7a835a4-48f8-459f-8523-c8036f6fd986)
-![Prewitt](https://github.com/user-attachments/assets/f505e9ec-283d-495e-affd-58e5f845437c)
-![Laplacian](https://github.com/user-attachments/assets/ac0c05f3-ae67-4de1-a380-11ebd153d499)
+![edgedetection](https://github.com/user-attachments/assets/4f976634-8d74-4a35-8072-12c7a1861024)
 
 # **Comparison of Image Processing Techniques**
 ![BlurringTech](https://github.com/user-attachments/assets/382516f0-0f1c-46db-9392-0b03ea8f4d3b)
